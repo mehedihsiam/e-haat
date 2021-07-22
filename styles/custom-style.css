@@ -1,0 +1,77 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+/* common css */
+.txt-style-a{
+    color: #058B59 !important;
+    font-weight: 600;
+}
+
+.txt-style-b{
+    color: #5023e2;
+}
+
+.product-heading{
+    background-color: #058B59;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* navbar css */
+
+.brand-name{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.dd-item:active{
+    color: white !important;
+    background-color: #5023e2;
+}
+.dd-item:hover{
+    color: #5023e2;
+}
+
+.menu-link:focus, .menu-link:hover{
+    color: #5023e2 !important;
+}
+
+
+/* card css */
+
+.card-height{
+    height: 500px;
+    position: relative;
+}
+
+#goat .card-height{
+    height: 550px;
+    position: relative;
+}
+
+.order-btn{
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    background-image: linear-gradient(to right bottom, #049c65, #066140);
+}
+
+.order-btn:hover{
+    box-shadow: 1px 1px 10px #01915c;
+}
+.order-btn:active{
+    box-shadow: 1px 1px 10px #01915c;
+}
+
+.btn-txt{
+    color: white;
+    font-weight: 600;
+}
+
+.price{
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+}

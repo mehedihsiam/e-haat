@@ -5,15 +5,314 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/custom-style.css">
-    <title>E-HAAT | Bangladesh</title>
+    <!-- icon link here -->
+    <link rel="shortcut icon" href="./images/logo/icon.png" type="image/x-icon">
+    <!-- fontawesome links -->
+    <link rel="stylesheet" href="styles/all.min.css">
+    <link rel="stylesheet" href="styles/fontawesome.min.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/custom-style.css">
+    <title>E-Haat | Bangladesh</title>
 </head>
 
 <body>
-    <main></main>
-    <footer></footer>
+    <header>
+        <!-- navbar here  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo/logo.png" alt="E-haat logo" height="25">
+                    <span class="brand-name fw-bold txt-style-b">E-Haat</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link menu-link active txt-style-a me-4" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link menu-link dropdown-toggle txt-style-a me-4" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item txt-style-a dd-item" href="#cow">Cow</a></li>
+                                <li><a class="dropdown-item txt-style-a dd-item" href="#goat">Goat</a></li>
+                                <li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link txt-style-a me-4" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link txt-style-a" href="#">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- slider here  -->
+        <section>
+            <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/banner/cow-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/banner/cow-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/banner/cow-3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="cow">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <h3 class="product-heading">--Many Kind Of Cows is Here--</h3>
+                    </div>
+                </div>
+                <div class="row gx-4">
+                    <div class="col-lg-4 mt-3 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/cow/cow-1.jpg" class="img-fluid" alt="">
+                            <h3 class="mt-3">Cow-1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem, iusto quisquam
+                                harum consequatur praesentium odio. Possimus nobis veniam delectus!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">1,10,000</span>
+                                    <span class="fw-bold txt-style-b"> 80,000 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/cow/cow-2.jpg" class="img-fluid" alt="cow">
+                            <h3 class="mt-3">Cow-2</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">1,10,000</span>
+                                    <span class="fw-bold txt-style-b"> 80,000 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/cow/cow-3.jpg" class="img-fluid" alt="cow">
+                            <h3 class="mt-3">Cow-3</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">1,10,000</span>
+                                    <span class="fw-bold txt-style-b"> 80,000 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5 mb-5 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/cow/cow-4.jpg" class="img-fluid" alt="">
+                            <h3 class="mt-3">Cow-4</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem, iusto quisquam
+                                harum consequatur praesentium odio. Possimus nobis veniam delectus!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">1,10,000</span>
+                                    <span class="fw-bold txt-style-b"> 80,000 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5 mb-5 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/cow/cow-5.jpg" class="img-fluid" alt="cow">
+                            <h3 class="mt-3">Cow-5</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">1,10,000</span>
+                                    <span class="fw-bold txt-style-b"> 80,000 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5 mb-5 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/cow/cow-6.jpg" class="img-fluid" alt="cow">
+                            <h3 class="mt-3">Cow-6</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">1,10,000</span>
+                                    <span class="fw-bold txt-style-b"> 80,000 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <hr>
+        <!-- goat collection -->
+
+        <section id="goat">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <h3 class="product-heading">--Many Kind Of Goats is Here--</h3>
+                    </div>
+                </div>
+                <div class="row gx-4">
+                    <div class="col-lg-4 mt-3 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/goat/goat-1.jpg" class="img-fluid" alt="">
+                            <h3 class="mt-3">Goat-1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem, iusto quisquam
+                                harum consequatur praesentium odio. Possimus nobis veniam delectus!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">12,000</span>
+                                    <span class="fw-bold txt-style-b"> 10,000 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/goat/goat-2.jpg" class="img-fluid" alt="cow">
+                            <h3 class="mt-3">Goat-2</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">13,000</span>
+                                    <span class="fw-bold txt-style-b"> 10,500 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/goat/goat-3.jpg" class="img-fluid" alt="cow">
+                            <h3 class="mt-3">Goat-3</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">17,000</span>
+                                    <span class="fw-bold txt-style-b"> 12,000 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/goat/goat-4.jpg" class="img-fluid" alt="">
+                            <h3 class="mt-3">Goat-4</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem, iusto quisquam
+                                harum consequatur praesentium odio. Possimus nobis veniam delectus!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">10,000</span>
+                                    <span class="fw-bold txt-style-b"> 9,200 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5 rounded-3">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/goat/goat-5.jpg" class="img-fluid" alt="cow">
+                            <h3 class="mt-3">Goat-5</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">20,000</span>
+                                    <span class="fw-bold txt-style-b"> 15,200 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5 rounded-3 mt-5">
+                        <div class="p-3 card-height shadow">
+                            <img src="./images/goat/goat-6.jpg" class="img-fluid" alt="cow">
+                            <h3 class="mt-3">Goat-6</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem!</p>
+                            <div>
+                                <div class="price">
+                                    <span class="txt-style-b fw-bold">Price:</span>
+                                    <span class="text-decoration-line-through fw-bold text-danger">10,500</span>
+                                    <span class="fw-bold txt-style-b"> 8,200 BDT</span>
+                                </div>
+                                <button class=" btn order-btn">
+                                    <span class="btn-txt">Order Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/fontawesome.min.js"></script>
+    <script src="./js/all.min.js"></script>
 </body>
 
 </html>
