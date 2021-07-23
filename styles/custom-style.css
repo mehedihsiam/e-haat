@@ -19,6 +19,13 @@
     padding: 10px;
     border-radius: 5px;
 }
+.others-heading{
+    background-color: #5023e2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 
 /* navbar css */
@@ -56,6 +63,7 @@
     position: absolute;
     right: 15px;
     bottom: 20px;
+    box-sizing: border-box;
     background-image: linear-gradient(to right bottom, #049c65, #066140);
 }
 
@@ -73,6 +81,20 @@
 
 .price{
     position: absolute;
+    box-sizing: border-box;
     bottom: 30px;
-    left: 15px;
+    left: 10px;
+}
+
+/* contact section  */
+
+.bg-light-a{
+    background-color: #c9baf598;
+    height: 400px;
+}
+
+.form{
+    height: 300px !important;
+
+    
 }
